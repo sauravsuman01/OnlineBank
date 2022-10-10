@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylesheet.css">
+<title>Registration</title>
+<style>
+body{
+background-color: #ffccb3;
+}
+
+input [type=int]{
+ width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+h2{
+background-color: #f3812a;
+}
+*{
+background-color: #ffccb3;
+}
+::placeholder{
+color: black;
+}
+</style>
+
+
+</head>
+<body>
+
+<h2 align="center">Welcome to ICICI Bank Registration Portal</h2>
+<div class="new">
+  <form action="Register" align="center">
+  	<label for="initial"></label>
+    <select id="initial" name="initial">
+      <option value="Mr. ">Mr. </option>
+      <option value="Ms. ">Ms. </option>
+      <option value="Mrs. ">Mrs. </option>
+    </select>
+  <br>
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+    
+      <label for="phone">Enter your phone number</label><br>
+  <input type="text" id="phone" name="phone" placeholder="Phone (Enter 10 digits only)"><br>
+  
+  <label for="pan">PAN</label><br>
+    <input type="text" id="pan" name="pan" placeholder="Enter your PAN Number"><br>
+    
+    <label for="address">Address</label><br>
+    <input type="text" id="address" name="address" placeholder="Enter your current Address"><br>
+    
+    <label for="balance">Enter balance</label><br>
+    <input type="number" id="balance" name="balance" placeholder="Enter Balance"><br>
+    
+    <label for="occupation">Occupation</label><br>
+    <select id="occupation" name="occupation">
+      <option value="Salaried">Salaried</option>
+      <option value="Self">Self Employed</option>
+    </select>
+<br>
+
+	<label for="income">Income</label><br>
+    <select id="income" name="income">
+      <option value="Less than 1 lakh">Less than 1 lakh</option>
+      <option value="1 Lakh to 5 Lakhs">1 Lakh to 5 Lakhs</option>
+      <option value="5 Lakhs to 10 Lakhs">5 Lakhs to 10 Lakhs</option>
+      <option value="Above 10 Lakhs">Above 10 Lakhs</option>
+    </select>
+
+<br>
+    <label for="type">Choose Account Type</label><br>
+    <select id="type" name="type">
+      <option value="Savings">Savings</option>
+      <option value="Current">Current</option>
+    </select>
+  <br>
+  
+  <label for="pass">Enter Password</label><br>
+    <input type="password" id="pass" name="pass" placeholder="Type Password"><br>
+    
+    <label for="repass">Enter Password</label><br>
+    <input type="password" id="repass" name="repass" placeholder="Re-type Password"><br>
+  <button style = "font-size:15px;border-radius:25px" class="btn btn-lg btn-primary btn-block" onClick="register()">Register</button>
+ 
+   </form>
+</div>
+
+
+</script>
+
+</body>
+</html>

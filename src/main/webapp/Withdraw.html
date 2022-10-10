@@ -1,0 +1,52 @@
+	<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Deposit</title>
+<link rel="stylesheet" href="stylesheet.css">
+<style>
+.new input[type=number], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+h1{
+background-color: #f3812a;
+}
+*{
+background-color: #ffccb3;
+}
+body{
+background-color: #ffccb3;
+}
+
+.back{
+margin: 11px 866px;
+}
+
+::placeholder{
+color: black;
+}
+</style>
+</head>
+<body>
+<h1 align="center">Enter the details to deposit the amount</h1>
+<div class="new">
+  <form action="Withdraw" align="center" method="get">
+  <br>
+
+    <label for="withdraw">Amount</label><br>
+    <input type="number" id=withdraw" name="withdraw" placeholder="Enter amount"><br>
+    <button style = "font-size:15px;border-radius:25px" class="btn btn-lg btn-primary btn-block" type="submit">Withdraw</button>
+  </form>
+  <div class="back">
+      <a href="LoggedIn.jsp"><button style = "font-size:15px;border-radius:25px" class="btn btn-lg btn-primary btn-block" type="submit">Back</button></a>
+  </div>
+</div>
+</body>
+</html>

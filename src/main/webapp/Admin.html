@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin</title>
+<link rel="stylesheet" href="stylesheet.css">
+<style>
+body{
+background-color: #ffccb3;
+}
+h1{
+background-color: #f3812a;
+}
+*{
+background-color: #ffccb3;
+}
+
+::placeholder{
+color: black;
+}
+</style>
+</head>
+<body>
+<br><br>
+<h1 align="center">Admin Login</h1>
+<div class="new">
+  <form action="Admin" align="center" method="get">
+  <br>
+    <label for="adminid">Admin Id</label><br>
+    <input type="number" id="adminid" name="adminid" placeholder="Enter your Admin Id" required><br>
+
+    <label for="adminpass">Password</label><br>
+    <input type="password" id="adminpass" name="adminpass" placeholder="Enter your password" required><br>
+    <button style = "font-size:15px;border-radius:25px" class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+  </form>
+</div>
+
+</body>
+</html>

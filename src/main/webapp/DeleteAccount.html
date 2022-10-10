@@ -1,0 +1,43 @@
+	<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Delete</title>
+<link rel="stylesheet" href="stylesheet.css">
+<style>
+.new input[type=number], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+h1{
+background-color: #f3812a;
+}
+*{
+background-color: #ffccb3;
+}
+body{
+background-color: #ffccb3;
+}
+::placeholder{
+color: black;
+}
+</style>
+</head>
+<body>
+<h1 align="center">Enter the details to Delete the account</h1>
+<div class="new">
+  <form action="Delete" align="center" method="get">
+  <br>
+
+    <label for="delete">Enter Account Number to be deleted</label><br>
+    <input type="number" id=delete" name="delete" placeholder="Enter account" required><br>
+    <button style = "font-size:15px;border-radius:25px" class="btn btn-lg btn-primary btn-block" type="submit">Delete</button>
+  </form>
+</div>
+</body>
+</html>
